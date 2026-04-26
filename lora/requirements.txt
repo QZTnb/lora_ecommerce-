@@ -1,0 +1,16 @@
+transformers>=4.37.0  # 升级以支持Qwen1.5
+peft==0.7.0
+accelerate==0.25.0
+torch>=2.2.0  # 更改为兼容版本
+datasets==2.15.0
+evaluate==0.4.1
+numpy>=1.26.0  # 更改为与Python 3.12兼容的版本
+pandas>=2.1.4
+scikit-learn>=1.3.2
+matplotlib>=3.8.2
+seaborn>=0.13.0
+nltk>=3.8.1
+spacy>=3.6.1
+langdetect>=1.0.9
+tqdm>=4.66.1
+einops>=0.6.0  # Qwen可选依赖
